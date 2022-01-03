@@ -2,9 +2,12 @@
 
 void swapInt(int *a, int *b)
 {
-	int tmp{ *a };
-	*a = *b;
-	*b = tmp;
+	// int tmp{ *a };
+	// *a = *b;
+	// *b = tmp;
+	*a -= *b;
+	*b += *a;
+	*a = *b - *a;
 }
 
 int main()
