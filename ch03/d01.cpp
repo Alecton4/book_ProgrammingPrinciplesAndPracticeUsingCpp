@@ -13,35 +13,29 @@ int main()
 	char friendGender{ '?' };
 	cin >> friendGender;
 	cout << "Enter the age of your recipient:\n";
-	int age = -1;
+	int age{ -1 };
 	cin >> age;
-
-	cout << "Dear " << firstName << ",\n"
-	     << "  How are you? I am fine. I miss you.\n"
-	     << "  Have you seen " << friendName << " lately? ";
-	if (friendGender == 'm') {
-		cout << "If you see " << friendName
-		     << " please ask him to call me.\n";
-	} else if (friendGender == 'f') {
-		cout << "If you see " << friendName
-		     << " please ask her to call me.\n";
-	}
 	if (age <= 0 || age >= 110) {
 		simple_error("You're kidding!");
-	} else {
-		cout << "  I hear you just had a birthday and you are " << age
-		     << " years old. ";
-		if (age < 12) {
-			cout << "Next year you will be " << age + 1 << "!\n";
-		} else if (age == 17) {
-			cout << "Next year you will be able to vote!\n";
-		} else if (age > 70) {
-			cout << "I hope you enjoy retirement!\n";
-		}
 	}
-	cout << "Yours sincerely,"
-	     << "\n\n"
-	     << "Alex";
+	cout << "Dear " << firstName << ",\n"
+	     << "  "
+	     << "How are you? I am fine. I miss you.\n"
+	     << "  "
+	     << "Have you seen " << friendName << " lately? "
+	     << "If you see " << friendName << " please ask "
+	     << (friendGender == 'm' ? "him" : "her") << " to call me.\n"
+	     << "  "
+	     << "I hear you just had a birthday and you are " << age
+	     << " years old. ";
+	if (age < 12) {
+		cout << "Next year you will be " << age + 1 << "!\n";
+	} else if (age == 17) {
+		cout << "Next year you will be able to vote!\n";
+	} else if (age > 70) {
+		cout << "I hope you enjoy retirement!\n";
+	}
+	cout << "Yours sincerely,\nAlex";
 
 	return 0;
 }

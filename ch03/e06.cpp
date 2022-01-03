@@ -7,7 +7,6 @@ int main()
 	int int1{ 0 }, int2{ 0 }, int3{ 0 };
 	int tmp{ 0 };
 	cin >> int1 >> int2 >> int3;
-
 	if (int1 > int2) {
 		tmp = int1;
 		int1 = int2;
@@ -27,10 +26,9 @@ int main()
 	     << '\n';
 
 	cout << "Enter 3 strings:\n";
-	string str1{ 0 }, str2{ 0 }, str3{ 0 };
-	string strTmp{ 0 };
+	string str1{ " " }, str2{ " " }, str3{ " " };
+	string strTmp{ " " };
 	cin >> str1 >> str2 >> str3;
-
 	if (str1 > str2) {
 		strTmp = str1;
 		str1 = str2;
