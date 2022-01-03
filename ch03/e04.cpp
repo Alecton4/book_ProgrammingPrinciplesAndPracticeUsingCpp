@@ -2,6 +2,7 @@
 
 int main()
 {
+	// exercise 04
 	cout << "Enter two integers: ";
 	int int1{ 0 };
 	int int2{ 0 };
@@ -12,6 +13,7 @@ int main()
 	     << "The product is " << (int1 * int2) << ".\n"
 	     << "The ratio is " << ((double)int1 / (double)int2) << ".\n";
 
+	// exercise 05
 	cout << "Enter two floating point numbers: ";
 	double double1{ 0 };
 	double double2{ 0 };
