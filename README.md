@@ -1,9 +1,7 @@
 Programming: Principles and Practice Using C++
 =============
 
-My solutions to drills and exercises in the book [Programming: Principles and Practice Using C++ (2nd Edition)](https://www.stroustrup.com/programming.html) by Bjarne Stroustrup. Note that some drills and exercises are combined in one source file.
-
-
+My solutions to drills and exercises in [*Programming: Principles and Practice Using C++ (2nd Edition)*](https://www.stroustrup.com/programming.html) by Bjarne Stroustrup. Note that some drills and exercises are combined in one source file.
 
 ### Chapters
 - [Chapter 2: Hello, World!](ch02)
