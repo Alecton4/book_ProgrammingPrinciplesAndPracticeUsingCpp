@@ -17,4 +17,4 @@ My solutions to drills and exercises in [*Programming: Principles and Practice U
 - OS: Win10
 - Editor: [VSCode](https://code.visualstudio.com/)
 - Plugins: [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), [Clangd](https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd)
-- Compiler: [clang](https://clang.llvm.org/)
+- Compiler: [clang++](https://clang.llvm.org/)
