@@ -1,26 +1,25 @@
 #include "std_lib_facilities.h"
-#include <string>
+
+void swapInt(int *a, int *b)
+{
+	int tmp{ *a };
+	*a = *b;
+	*b = tmp;
+}
 
 int main()
 {
 	cout << "Enter 3 integers:\n";
 	int int1{ 0 }, int2{ 0 }, int3{ 0 };
-	int tmp{ 0 };
 	cin >> int1 >> int2 >> int3;
 	if (int1 > int2) {
-		tmp = int1;
-		int1 = int2;
-		int2 = tmp;
+		swapInt(&int1, &int2);
 	}
 	if (int1 > int3) {
-		tmp = int1;
-		int1 = int3;
-		int3 = tmp;
+		swapInt(&int1, &int3);
 	}
 	if (int2 > int3) {
-		tmp = int2;
-		int2 = int3;
-		int3 = tmp;
+		swapInt(&int2, &int3);
 	}
 	cout << "Non-decreasing order: " << int1 << " " << int2 << " " << int3
 	     << '\n';
