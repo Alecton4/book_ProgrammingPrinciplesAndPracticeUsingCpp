@@ -2,7 +2,7 @@
 
 int main()
 {
-	// TODO: when n == 49, this program asks the user 8 times rather than 7 times.
+	// REVIEW: when n == 49, this program asks the user 8 times rather than 7 times.
 	// bool bingo{ false };
 	// int left{ 1 }, right{ 100 }, medium{ 50 };
 	// while (!bingo) {
