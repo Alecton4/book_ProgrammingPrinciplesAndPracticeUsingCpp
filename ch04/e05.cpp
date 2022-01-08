@@ -5,6 +5,7 @@ const vector<string> digits{ "zero", "one", "two",   "three", "four",
 			     "five", "six", "seven", "eight", "nine" };
 const vector<char> operators{ '+', '-', '*', '/' };
 
+// REVIEW: it works, why?
 double getDouble()
 {
 	double userDbl{ 0 };
@@ -59,7 +60,7 @@ int main()
 			break;
 		case '/':
 			if (val2 == 0) {
-			simple_error("Divided by zero!");
+				simple_error("Divided by zero!");
 			}
 			out = val1 / val2;
 			break;
