@@ -28,8 +28,7 @@ void generate(int seed)
 
 int next_play() // generate a reasonably obscure sequence of 0s, 1s, and 2s
 {
-	return fib() %
-	       3; // we are only interested in a value 0, 1, or 2 (% is the modulus/remainder operation)
+	return fib() % 3; // we are only interested in a value 0, 1, or 2 (% is the modulus/remainder operation)
 }
 
 int main()
@@ -95,17 +94,14 @@ try {
 			} else
 				++count2;
 
-			cout << "you said \"" << s << "\" I said \"" << ss
-			     << "\": " << res;
-			cout << " score: you==" << count1 << " me==" << count2
-			     << " same==" << draws << "\n";
+			cout << "you said \"" << s << "\" I said \"" << ss << "\": " << res;
+			cout << " score: you==" << count1 << " me==" << count2 << " same==" << draws << "\n";
 		}
 		cout << "Please try again: ";
 	}
 	cout << "exit because of bad input\n";
 	keep_window_open("~"); // For some Windows(tm) setups
-} catch (runtime_error
-		 e) { // this code is to produceerror messages; it will be described in Chapter 5
+} catch (runtime_error e) { // this code is to produceerror messages; it will be described in Chapter 5
 	cout << e.what() << '\n';
 	keep_window_open("~"); // For some Windows(tm) setups
 }
