@@ -1,0 +1,6 @@
+-g
+-Wall
+-Wextra
+-static-libgcc
+-xc++
+-std=c++11
