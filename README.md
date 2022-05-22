@@ -1,9 +1,9 @@
-Programming: Principles and Practice Using C++
-=============
+# Programming: Principles and Practice Using C++
 
 My solutions to drills and exercises in [*Programming: Principles and Practice Using C++ (2nd Edition)*](https://www.stroustrup.com/programming.html) by Bjarne Stroustrup. Note that some drills and exercises are combined in one source file. If you want official solutions, you may find some selected solutions [here](https://www.stroustrup.com/Programming/Solutions/exercise_solutions.html).
 
-### Chapters
+## Chapters
+
 - [Chapter 2: Hello, World!](ch02/)
 - [Chapter 3: Objects, Types, and Values](ch03/)
 - [Chapter 4: Computation](ch04/)
@@ -13,7 +13,8 @@ My solutions to drills and exercises in [*Programming: Principles and Practice U
 - [Chapter 8: Technicalities: Functions, etc.](ch08/)
 - [Chapter 9: Technicalities: Classes, etc.](ch09/)
 
-### My environment:
+## My environment
+
 - OS: Win10
 - Editor: [VSCode](https://code.visualstudio.com/)
 - Plugins: [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), [Clangd](https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd)
